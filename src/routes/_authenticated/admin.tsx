@@ -12,6 +12,7 @@ import {
   Trash2,
   XCircle,
 } from "lucide-react";
+import rentalLogo from "@/assets/rentalsdk.jpeg";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -391,9 +392,9 @@ function AdminDashboard() {
       <header className="border-b border-border bg-background">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <CarIcon className="size-5" />
-            </span>
+            <div className="h-9 w-9 rounded-full bg-white overflow-hidden flex items-center justify-center">
+              <img src={rentalLogo} alt="Rental SDK" className="h-full w-full object-cover" />
+            </div>
             <div>
               <p className="text-sm font-bold leading-tight">Admin Dashboard</p>
               <p className="text-xs text-muted-foreground">New Sadiqabad Rent a Car</p>
