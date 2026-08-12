@@ -33,16 +33,27 @@ function Contact() {
 
       <div className="mx-auto grid max-w-6xl gap-6 px-4 py-14 sm:grid-cols-2 lg:grid-cols-4">
         {[
-          { icon: Phone, title: "Phone", value: "0300 0290285" },
-          { icon: MessageCircle, title: "WhatsApp", value: "0300 0290285" },
-          { icon: Mail, title: "Email", value: "booking@rental.com" },
-          { icon: MapPin, title: "Office", value: "Al=hameed commercial market, JDW road, near Shera colony, Sadiqabad" },
+          { icon: Phone, title: "Phone", value: "0300 0290285", href: "tel:03000290285" },
+          { icon: MessageCircle, title: "WhatsApp", value: "0300 0290285", href: "https://wa.me/923000290285" },
+          { icon: Mail, title: "Email", value: "booking@rental.com", href: "mailto:booking@rental.com" },
+          {
+            icon: MapPin,
+            title: "Office",
+            value: "Al-hameed commercial market, JDW road, near Shera colony, Sadiqabad",
+            href: "https://maps.google.com/?q=84M7+9W+Sadiqabad,+Pakistan",
+          },
         ].map((c) => (
-          <div key={c.title} className="rounded-xl border border-border bg-card p-6">
+          <a
+            key={c.title}
+            href={c.href}
+            target={c.href?.startsWith("http") ? "_blank" : undefined}
+            rel={c.href?.startsWith("http") ? "noreferrer" : undefined}
+            className="rounded-xl border border-border bg-card p-6 transition hover:border-primary hover:text-primary"
+          >
             <c.icon className="size-5 text-primary" />
             <h2 className="mt-3 text-sm font-semibold">{c.title}</h2>
             <p className="mt-1 text-sm text-muted-foreground">{c.value}</p>
-          </div>
+          </a>
         ))}
       </div>
 
