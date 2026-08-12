@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import webIcon from "../assets/webicon.png";
+import rentalLogo from "../assets/rentalsdk.jpeg";
 import { Button } from "@/components/ui/button";
 
 const links = [
@@ -18,7 +18,9 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src={webIcon} alt="New Sadiqabad Rent a Car" className="h-9 w-9 rounded-lg bg-primary p-1 object-contain" />
+          <div className="h-9 w-9 rounded-full bg-white overflow-hidden flex items-center justify-center">
+            <img src={rentalLogo} alt="New Sadiqabad Rent a Car" className="h-full w-full object-cover" />
+          </div>
           <span className="text-lg font-bold tracking-tight">
             New Sadiqabad<span className="text-primary"> Rent a Car</span>
           </span>
