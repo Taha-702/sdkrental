@@ -35,10 +35,10 @@ function Contact() {
         {[
           { icon: Phone, title: "Phone", value: "0300 0290285", href: "tel:03000290285" },
           { icon: MessageCircle, title: "WhatsApp", value: "0300 0290285", href: "https://wa.me/923000290285" },
-          { icon: Mail, title: "Email", value: "booking@rental.com", href: "mailto:booking@rental.com" },
+          { icon: Mail, title: "Email", value: "newsadiqabadrentacar@gmail.com", href: "mailto:newsadiqabadrentacar@gmail.com" },
           {
             icon: MapPin,
-            title: "Office",
+            title: "Office",  
             value: "Al-hameed commercial market, JDW road, near Shera colony, Sadiqabad",
             href: "https://maps.google.com/?q=84M7+9W+Sadiqabad,+Pakistan",
           },
