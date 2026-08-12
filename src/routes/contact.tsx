@@ -33,10 +33,10 @@ function Contact() {
 
       <div className="mx-auto grid max-w-6xl gap-6 px-4 py-14 sm:grid-cols-2 lg:grid-cols-4">
         {[
-          { icon: Phone, title: "Phone", value: "0300 1234567" },
-          { icon: MessageCircle, title: "WhatsApp", value: "0300 1234567" },
+          { icon: Phone, title: "Phone", value: "0300 0290285" },
+          { icon: MessageCircle, title: "WhatsApp", value: "0300 0290285" },
           { icon: Mail, title: "Email", value: "booking@rental.com" },
-          { icon: MapPin, title: "Office", value: "Main Boulevard, Lahore" },
+          { icon: MapPin, title: "Office", value: "Al=hameed commercial market, JDW road, near Shera colony, Sadiqabad" },
         ].map((c) => (
           <div key={c.title} className="rounded-xl border border-border bg-card p-6">
             <c.icon className="size-5 text-primary" />

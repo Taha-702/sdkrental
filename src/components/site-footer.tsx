@@ -29,9 +29,9 @@ export function SiteFooter() {
         <div>
           <h3 className="text-sm font-semibold">Reach us</h3>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="size-4 text-primary" /> 0300 1234567</li>
+            <li className="flex items-center gap-2"><Phone className="size-4 text-primary" /> 0300 0290285</li>
             <li className="flex items-center gap-2"><Mail className="size-4 text-primary" /> booking@rental.com</li>
-            <li className="flex items-center gap-2"><MapPin className="size-4 text-primary" /> Main Boulevard, Lahore</li>
+            <li className="flex items-center gap-2"><MapPin className="size-4 text-primary" /> Al=hameed commercial market, JDW road, near Shera colony, Sadiqabad</li>
           </ul>
         </div>
         <div>
