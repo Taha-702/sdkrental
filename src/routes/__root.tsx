@@ -10,7 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import rentalLogo from "../assets/rentalsdk.jpeg?url";
+import rentalIcon from "../assets/rentalsdk.ico?url";
 import { Toaster } from "@/components/ui/sonner";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
@@ -101,8 +101,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
       },
-      { rel: "icon", href: rentalLogo, type: "image/jpeg" },
-      { rel: "apple-touch-icon", href: rentalLogo },
+      { rel: "icon", href: rentalIcon, type: "image/x-icon" },
+      { rel: "apple-touch-icon", href: rentalIcon },
     ],
   }),
   shellComponent: RootShell,
