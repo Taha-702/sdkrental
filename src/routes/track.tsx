@@ -100,6 +100,7 @@ function Track() {
               <div>
                 <p className="text-xs uppercase tracking-wide text-muted-foreground">Reference</p>
                 <p className="text-xl font-bold tracking-widest text-primary">{result.reference}</p>
+                <p className="mt-2 text-sm text-muted-foreground">Please save this booking reference or take a screenshot — you'll need it to track your booking status.</p>
               </div>
               <StatusBadge status={result.status} />
             </div>
