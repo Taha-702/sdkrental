@@ -14,7 +14,7 @@ export function SiteFooter() {
             <span className="font-bold">New Sadiqabad Rent a Car</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground">
-            Self-drive and with-driver car rentals. Transparent 24-hour rates, verified
+            Self-drive car rentals. Transparent 24-hour rates, verified
             vehicles and instant booking confirmation.
           </p>
         </div>

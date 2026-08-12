@@ -129,8 +129,8 @@ export function BookingForm({ car, slots }: { car: Car; slots: Availability[] | 
         </p>
         <p className="mt-2 text-2xl font-bold tracking-widest text-primary">{reference}</p>
         <p className="mt-3 text-sm text-muted-foreground">
-          Save this reference. You can check the approval status any time on the
-          Track Booking page using your reference and phone number.
+          <strong>IMPORTANT: </strong>
+          Save this reference or take a screenshot — you'll need it to track your booking status.
         </p>
       </div>
     );
